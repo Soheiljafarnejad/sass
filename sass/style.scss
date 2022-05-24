@@ -1,11 +1,12 @@
+// variables
 $primary-color: red;
-$text-lg-size: 10rem;
+$text-lg-size: 5rem;
 
 h1 {
   background-color: $primary-color;
   font-size: $text-lg-size;
 }
-
+// Nesting
 div {
   ul {
     a {
@@ -15,4 +16,12 @@ div {
   p {
     background-color: aqua;
   }
+}
+// mixin
+@mixin border($value) {
+  border: $value solid black;
+}
+
+p {
+  @include border(2px);
 }
