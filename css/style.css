@@ -3,4 +3,11 @@ h1 {
   font-size: 10rem;
 }
 
+div ul a {
+  font-size: 10rem;
+}
+div p {
+  background-color: aqua;
+}
+
 /*# sourceMappingURL=style.css.map */
