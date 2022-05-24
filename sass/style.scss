@@ -12,6 +12,9 @@ div {
     a {
       font-size: $text-lg-size;
     }
+    &:hover {
+      background-color: blueviolet;
+    }
   }
   p {
     background-color: aqua;

@@ -6,6 +6,9 @@ h1 {
 div ul a {
   font-size: 5rem;
 }
+div ul:hover {
+  background-color: blueviolet;
+}
 div p {
   background-color: aqua;
 }
