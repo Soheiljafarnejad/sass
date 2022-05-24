@@ -17,4 +17,11 @@ p {
   border: 2px solid black;
 }
 
+@media screen and (max-width: 400px) {
+  p {
+    color: gold;
+    font-size: 3rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

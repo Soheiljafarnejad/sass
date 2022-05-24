@@ -28,3 +28,17 @@ div {
 p {
   @include border(2px);
 }
+
+//content
+@mixin media($width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
+
+p {
+  @include media(400px) {
+    color: gold;
+    font-size: 3rem;
+  }
+}
